@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Sners03/management_of_clans/compare/1.1.1...1.1.2) (2023-07-26)
+
+
+### Bug Fixes
+
+* **test:** workflow run test commit ([8ff421c](https://github.com/Sners03/management_of_clans/commit/8ff421c6408a6ca9375c41bc27079fd65b6c4da3))
+
 ## [1.1.1](https://github.com/Sners03/management_of_clans/compare/1.1.0...1.1.1) (2023-07-26)
 
 
