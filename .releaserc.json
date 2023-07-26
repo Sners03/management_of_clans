@@ -18,6 +18,14 @@
       }],
       ["@semantic-release/release-notes-generator", {
         "preset": "angular",
+        "releaseRules": [
+          {"type": "major", "release": "major"},
+          {"type": "minor", "release": "minor"},
+          {"type": "hotfix", "release": "patch"},
+          {"type": "patch", "release": "patch"},
+          {"type": "refactor", "release": "patch"},
+          {"type": "style", "release": "patch"}
+      ],
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
         },
