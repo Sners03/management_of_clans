@@ -16,6 +16,11 @@
           "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
         }
       }],
+      ["@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+      ],
       ["@semantic-release/release-notes-generator", {
         "preset": "angular",
         "releaseRules": [
@@ -37,11 +42,6 @@
       {
         "changelogFile": "docs/CHANGELOG.md"
       }],
-      ["@semantic-release/npm",
-      {
-        "npmPublish": false
-      }
-      ],
       "@semantic-release/github",
       ["@semantic-release/git", {
         "assets": ["package.json", "docs/CHANGELOG.md"],
