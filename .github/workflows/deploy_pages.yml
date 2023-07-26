@@ -27,7 +27,9 @@ jobs:
           cache: npm
           node-version: 18
       - name: install dependencies
+        run: npm install semantic-release -D
         run: npm install @semantic-release/github -D
+        run: npm install @semantic-release/git -D
       - run: npm ci
       - run: npx semantic-release
         env:

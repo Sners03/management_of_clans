@@ -34,6 +34,8 @@ generateNotes:
     writerOpts:
       groupBy: "type"
       commitGroupsSort:
+        - "major"
+        - "minor"
         - "feat"
         - "perf"
         - "fix"
