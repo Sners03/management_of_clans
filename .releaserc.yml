@@ -41,6 +41,9 @@ generateNotes:
         - "fix"
       commitsSort: "header"
     types:
+    - type: "minor"
+    - section: "minor changes"
+    - hidden: false
     - type: "feat"
     - section: "Features"
     # Tracked bug fix with a hotfix branch
